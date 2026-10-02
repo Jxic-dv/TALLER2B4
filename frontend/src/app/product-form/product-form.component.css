@@ -1,0 +1,27 @@
+.contenedor { max-width: 720px; margin: 2rem auto; padding: 1.5rem; font-family: Arial, sans-serif; border: 1px solid #d0d7e5; border-radius: 8px; }
+h2 { color: #2c3a6e; margin-top: 0; }
+.campo { display: flex; flex-direction: column; margin-bottom: 1rem; flex: 1; }
+.fila { display: flex; gap: 1rem; }
+label { font-weight: bold; margin-bottom: .3rem; }
+input, select, textarea { padding: .5rem; border: 2px solid #bbb; border-radius: 4px; font-size: 1rem; }
+input:focus, select:focus, textarea:focus { outline: none; border-color: #2c3a6e; }
+
+.invalido { border-color: #d32f2f; background: #fdecea; }
+.valido { border-color: #2e7d32; background: #edf7ed; }
+.errores { margin: .3rem 0 0; padding-left: 1.1rem; color: #d32f2f; font-size: .85rem; }
+.contador { align-self: flex-end; color: #666; font-size: .75rem; }
+
+.alerta { padding: .75rem; border-radius: 4px; margin-bottom: 1rem; }
+.alerta.exito { background: #edf7ed; color: #1b5e20; border: 1px solid #2e7d32; }
+.alerta.error { background: #fdecea; color: #b71c1c; border: 1px solid #d32f2f; }
+
+.botones { display: flex; gap: .75rem; }
+button { padding: .6rem 1.2rem; border: none; border-radius: 4px; background: #2c3a6e; color: #fff; cursor: pointer; font-size: 1rem; }
+button:disabled { opacity: .6; cursor: not-allowed; }
+button.secundario { background: #777; }
+
+.estado { margin-top: 1.5rem; background: #f4f6fb; padding: 1rem; border-radius: 4px; }
+.estado pre { margin: 0; font-size: .85rem; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #d0d7e5; padding: .4rem; text-align: left; }
+th { background: #2c3a6e; color: #fff; }

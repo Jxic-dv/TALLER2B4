@@ -1,0 +1,52 @@
+# Dependencias
+node_modules/
+
+# Build y caché de Angular
+/dist
+/out-tsc
+/tmp
+/.angular/cache
+.sass-cache/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lockfiles de otros gestores (se usa pnpm)
+package-lock.json
+yarn.lock
+
+# Editor / IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+*~
+
+# Testing / cobertura
+/coverage
+
+# Angular CLI
+.angular/
+/connect.lock
+/libpeerconnection.log
+testem.log
+/typings
+
+# Archivos temporales
+*.tmp
+*.swp
